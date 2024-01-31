@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Silkscreen&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="shortcut icon" href="p1-removebg-preview.png" type="image/x-icon" />
+</head>
+<style>*{
+    margin: 0px;
+    padding: 0px;
+}
+ body{
+    /* background-image: url(p41.png); */
+    width: 100%;
+    height: 100vh;
+    background-image: url(blue.webp);
+     background-size: cover;  
+     display: flex;
+     justify-content: center;   
+     align-items: center; 
+     flex-direction: column;
+}
+ button
+ {
+    border: none;
+    background-color: #fffdfd00;
+    font-size: 30px;
+    cursor: pointer;
+    /* background: none; */
+    color:#94e9fe
+ }
+ #b1{
+    font-family: 'Creepster', system-ui;
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+    font-size: 40px;
+ }
+#box{
+   /* border: solid; */
+    width: 900px;
+    height: 600px;
+    display: flex;
+     justify-content: center;   
+     align-items: center; 
+     text-align: center;
+     flex-direction: column;
+     -webkit-text-stroke: 1px rgb(252, 254, 255); /* width and color */
+     font-family: 'Creepster', system-ui;
+}
+#ibox h1{
+    font-size: 800%;
+}
+button:hover{
+    color: #ffffff;
+    transform: scale3d(Start);
+}
+#b3{
+    width: 50px;
+    height: 50px;
+}
+#b4{
+    width: 50px;
+    height: 50px;
+}
+</style>
+<body>
+    <!-- <img id="b3" src="bb.png" alt="">
+    <img id="b4" src="bb.png" alt=""> -->
+    <div id="box">
+        <div id="ibox">
+            <h1 style="color: #ff3e7a;">Guess The</h1>
+            <h1 style="color: #ffe33e;">Number</h1>
+        </div>
+    </div>
+    <button id="b1" onclick="window.location.href = 'cen.html';">Start</button>
+    
+</body>
+</html>
